@@ -8,6 +8,9 @@
         <item>@string/volumen</item>
         <item>@string/operaciones</item>
     </string-array>
+    <string name="lado">Lado</string>
+    <string name="calcular">Calcular</string>
+    <string name="borrar">Borrar</string>
     <string name="cuadrado">Cuadrado</string>
     <string name="rectangulo">Rectángulo</string>
     <string name="triangulo">Triángulo</string>
