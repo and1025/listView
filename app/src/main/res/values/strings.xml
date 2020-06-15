@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">listViewTaller</string>
+    <string name="area">Áreas</string>
+    <string name="volumen">Volúmenes</string>
+    <string name="operaciones">Operaciones Realizadas</string>
+    <string-array name="opciones">
+        <item>@string/area</item>
+        <item>@string/volumen</item>
+        <item>@string/operaciones</item>
+    </string-array>
 </resources>
