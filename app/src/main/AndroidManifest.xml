@@ -12,6 +12,8 @@
         <activity android:name=".Area"></activity>
         <activity android:name=".Operaciones"></activity>
         <activity android:name=".Volumen"></activity>
+        <activity android:name=".OperacionArea"></activity>
+        <activity android:name=".OperacionVolumen"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
