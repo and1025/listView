@@ -30,25 +30,25 @@ public class Area extends AppCompatActivity {
                 switch(position) {
                     case 0:
                         intent = new Intent(Area.this, OperacionArea.class);
-                        intent.putExtra("tipo", "Cuadrado");
+                        intent.putExtra("tipo", 1);
                         startActivity(intent);
                         break;
                     case 1:
                         Log.d("mensaje:" , String.valueOf(position));
                         intent = new Intent(Area.this, OperacionArea.class);
-                        intent.putExtra("tipo", "Rectangulo");
+                        intent.putExtra("tipo", 2);
                         startActivity(intent);
                         break;
                     case 2:
                         Log.d("mensaje:" , String.valueOf(position));
                         intent = new Intent(Area.this, OperacionArea.class);
-                        intent.putExtra("tipo", "Triangulo");
+                        intent.putExtra("tipo", 3);
                         startActivity(intent);
                         break;
                     case 3:
                         Log.d("mensaje:" , String.valueOf(position));
                         intent = new Intent(Area.this, OperacionArea.class);
-                        intent.putExtra("tipo", "Circulo");
+                        intent.putExtra("tipo", 4);
                         startActivity(intent);
                         break;
                 }}
