@@ -29,19 +29,24 @@ public class Volumen extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch(position) {
                     case 0:
-                        //intent = new Intent(MainActivity.this, Area.class);
-                        //startActivity(intent);
-                        Log.d("mensaje:" , String.valueOf(position));
+                        intent = new Intent(Volumen.this, OperacionVolumen.class);
+                        intent.putExtra("tipo", 1);
+                        startActivity(intent);
                         break;
                     case 1:
-                        Log.d("mensaje:" , String.valueOf(position));
-                        //intent = new Intent(MainActivity.this, Volumen.class);
-                        //startActivity(intent);
+                        intent = new Intent(Volumen.this, OperacionVolumen.class);
+                        intent.putExtra("tipo", 2);
+                        startActivity(intent);
                         break;
                     case 2:
-                        Log.d("mensaje:" , String.valueOf(position));
-                        //intent = new Intent(MainActivity.this, Operaciones.class);
-                        //startActivity(intent);
+                        intent = new Intent(Volumen.this, OperacionVolumen.class);
+                        intent.putExtra("tipo", 3);
+                        startActivity(intent);
+                        break;
+                    case 3:
+                        intent = new Intent(Volumen.this, OperacionVolumen.class);
+                        intent.putExtra("tipo", 4);
+                        startActivity(intent);
                         break;
                 }}
         });
