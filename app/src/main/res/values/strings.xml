@@ -37,4 +37,6 @@
     <string name="operacion">Operación</string>
     <string name="datos">Datos</string>
     <string name="resultado">Resultado</string>
+    <string name="altura">Altura</string>
+    <string name="total">Total</string>
 </resources>
