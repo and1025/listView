@@ -14,6 +14,7 @@ public class OperacionArea extends AppCompatActivity {
     private EditText input_lado;
     private int tipo_op;
     double lado_input = 0;
+    //
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_operacion_area);
