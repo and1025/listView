@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">listViewTaller</string>
+    <string name="area">Áreas</string>
+    <string name="volumen">Volúmenes</string>
+    <string name="error_vacio">Ingresa un numero para calcular la operación</string>
+    <string name="operaciones">Operaciones Realizadas</string>
+    <string-array name="opciones">
+        <item>@string/area</item>
+        <item>@string/volumen</item>
+        <item>@string/operaciones</item>
+    </string-array>
+    <string name="lado">Lado</string>
+    <string name="calcular">Calcular</string>
+    <string name="radio">Radio</string>
+    <string name="borrar">Borrar</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="rectangulo">Rectángulo</string>
+    <string name="triangulo">Triángulo</string>
+    <string name="circulo">Círculo</string>
+    <string-array name="areas">
+        <item>@string/cuadrado</item>
+        <item>@string/rectangulo</item>
+        <item>@string/triangulo</item>
+        <item>@string/circulo</item>
+    </string-array>
+    <string name="esfera">Esfera</string>
+    <string name="cilindro">Cilindro</string>
+    <string name="cono">Cono</string>
+    <string name="cubo">Cubo</string>
+    <string-array name="volumenes">
+        <item>@string/esfera</item>
+        <item>@string/cilindro</item>
+        <item>@string/cono</item>
+        <item>@string/cubo</item>
+    </string-array>
+    <string name="numero">No</string>
+    <string name="operacion">Operación</string>
+    <string name="datos">Datos</string>
+    <string name="resultado">Resultado</string>
+    <string name="altura">Altura</string>
+    <string name="total">Total</string>
 </resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">listViewTaller</string>
+    <string name="area">Áreas</string>
+    <string name="volumen">Volumes</string>
+    <string name="error_vacio">"Enter a number to calculate the operation "</string>
+    <string name="operaciones">"Operations Performed "</string>
+    <string name="calcular">Calculate</string>
+    <string name="radio">radio</string>
+    <string name="lado">Side</string>
+    <string name="borrar">Delete</string>
+    <string name="cuadrado">Square</string>
+    <string name="rectangulo">Rectangle</string>
+    <string name="triangulo">Triangle</string>
+    <string name="circulo">Circle</string>
+    <string name="esfera">"Sphere "</string>
+    <string name="cilindro">Cylinder</string>
+    <string name="cono">Cone</string>
+    <string name="numero">No</string>
+    <string name="cubo">Cube</string>
+    <string name="operacion">"Operation "</string>
+    <string name="datos">Data</string>
+    <string name="resultado">Result</string>
+    <string name="altura">Height</string>
+    <string name="total">Total</string>
+</resources>
